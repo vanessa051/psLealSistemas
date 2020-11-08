@@ -1,0 +1,202 @@
+
+
+body{
+	background-image: url("../img/fundo.jpg");
+}
+
+.container{
+	padding-top: 70px;
+	max-width: 780px;
+	align-items: center;
+	height: 80vh;
+	position: relative;
+}
+
+/*===========================================
+	PÁGINA HOME E SUAS TECNOLOGIAS
+=============================================*/
+
+.card{
+	color:white;
+	background-color: black;
+	border-radius: 20px;
+	border: transparent;
+}
+
+/*IMAGEM FORMULARIO DE CADASTRO*/
+.img-home{
+	width: 100%;
+	height: 498px; 
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+/*TÍTULO "Cadastra Cidades do Brasil" DO FORMULÁRIO DE CADASTRO*/
+.span-home{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+/*CAIXA DE INPUT DO FORMULÁRIO DE CADASTRO E DO FORMULÁRIO DE ALTERAÇÃO*/
+.input-cidade{
+	border-radius: 50px;
+	background-color: black;
+	border-color: white;
+	margin-bottom: 50px;
+	color: white;
+}
+
+/*CAIXA DE INPUT DO FORMULÁRIO DE CADASTRO E DO FORMULÁRIO DE ALTERAÇÃO*/
+.input-cidade:focus{
+	background-color: black;
+	color: white;
+}
+
+/*SELECT ESTADO DO FORMULÁRIO DE CADASTRO E DO FORMULÁRIO DE ALTERAÇÃO*/
+#select_estado{
+	background-color: black;
+	width: 100%;
+   	height: 35px; 
+   	border:1px solid white;
+   	border-radius: 50px;
+   	color: white;
+}
+
+/*DIV BOTÃO DO FORMULÁRIO DE CADASTRO E DO FORMULÁRIO DE ALTERAÇÃO*/
+.botao{
+	justify-content: center;
+	text-align: center;	
+}
+
+/*BOTÃO DE CADASTRO DE CIDADES*/
+.btn-cadastra{
+	margin-top: 70px;
+	border-radius: 50px;
+	width: 200px;
+}
+
+/*DIV DO LINK PARA VISUALZAR CIDADES DO FORMILARO DE CADASTRO*/
+.div-link-visualizar-cidades{
+	margin-top: 30px;
+	justify-content: center;
+	text-align: center;	
+}
+
+/*LINK PARA VISUALZAR CIDADES DO FORMILARO DE CADASTRO*/
+.link-visualizar-cidades{
+	color: white;
+}
+
+.link-visualizar-cidades:hover{
+	color: white;
+}
+
+/*================FIM======================*/
+
+
+/*===========================================
+	PÁGINA LISTA CIDADES E SUAS TECNOLOGIAS
+=============================================*/
+
+/*TÍTULO "Lista de Cidades" DA TABELA DE VISUALIZAÇÃO*/
+.span-lista{
+	font-size: 25px;
+	text-align: center;
+	margin-top: -43px;
+	margin-bottom: 20px;
+	font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+/*DIV DA TABELA DE VISUALIZAÇÃO*/
+.tabela{
+	padding: 10px;
+}
+
+/*TABELA DE VISUALIZAÇÃO*/
+.table{	
+	color: white;
+	padding-right: 20%;
+}
+
+/*ÍCONES ALTERAR E REMOVER*/
+.icon{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+/*ÍCONES REDIRECIONA PARA HOME*/
+.icon-img{
+	width: 40px;
+	height: 40px;
+	margin: 15px;	
+}
+
+/*================FIM======================*/
+
+
+
+/*===========================================
+	PÁGINA ALTERA CIDADES E SUAS TECNOLOGIAS
+=============================================*/
+
+/*FORMULÁRIO DE ALTERAÇÃO*/
+.card-altera{
+	margin: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*TÍTULO DO FORMULÁRIO DE ALTERAÇÃO*/
+.span-altera{
+	margin: 10px;
+}
+
+/*ÍCONE PARA FECHAR FORMULAPRIO DE ALTERAÇÃO*/
+.icon-close{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+}
+
+/*================FIM======================*/
+
+
+/*===========================================
+	MEDIA QUERY E SUAS TECNOLOGIAS
+=============================================*/
+
+@media (max-width: 480px) {
+/*REDIMENSIONA IMAGEM FORMULARIO DE CADASTRO*/
+	.img-home{
+		width: 100%;
+		height: 200px; 
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 0px;
+	}
+
+/*REDIMENSIONA CARD DO FORMULARIO DE ALTERAÇÃO*/
+	.card-altera{
+		margin-left: 0px;
+		width: 25rem;
+	}
+	
+/*ÍCONE PARA FECHAR FORMULAPRIO DE ALTERAÇÃO*/
+.icon-close{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px;
+}
+}
